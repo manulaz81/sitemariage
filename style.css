@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+.logo {
+  width: 75px;
+  margin: 40 20 20 20;
+}
+
+.accueil {
+  background: url(/photos/551A3807.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
