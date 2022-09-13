@@ -6,16 +6,64 @@
   padding: 0;
 }
 body {
-  height: 100vh;
+  width: 95%;
+  margin: auto;
 }
+/****header******/
+
 .logo {
   width: 75px;
-  margin: 40 20 20 20;
+  text-align: left;
 }
+
+/****section*****/
 
 .accueil {
   background: url(/photos/551A3807.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  height: 600px;
+  border-radius: 5px;
+}
+header {
+  display: flex;
+}
+.navigation {
+  width: 100%;
+  /* border: red 1px solid; */
+}
+nav {
+  text-align: right;
+}
+/* container*/
+
+.title {
+margin-top: 20px;
+
+}
+.propos {
+  width: 100%;
+  font-size: 15px;
+  background: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 2px 2px grey;
+}
+
+.propos-img {
+  width: 160px;
+  border-radius: 5px;
+  box-shadow: 2px 2px grey;
+}
+.text{
+  padding : 10px;
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+.memory {
+  display: flex;
+  align-items: center;
+  /* border: red solid 1px; */
 }
