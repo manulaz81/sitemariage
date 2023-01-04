@@ -4,236 +4,433 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.\googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/b99458d354.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css" />
-
+    <link
+      href="https://fonts.\googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b99458d354.js"
+      crossorigin="anonymous"
+    ></script>
     
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/b99458d354.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+  
     <title>E-Production</title>
   </head>
-  <body>
-    <header class="">
-      <div class=" navbar-brand">
+
+  
+<div class="container-fluid">bonjour à tous
+  <section class="slider d-flex w-100 flex-column">
+    <img src="/photos/551A3852.jpg" alt="img1" class="img_slider active" />
+    <img src="/photos/551A3830.jpg" alt="img2" class="img_slider" />
+    <img src="/photos/551A3839.jpg  " alt="img2" class="img_slider" />
+    <div class="suivant">
+      <i class="fas fa-chevron-circle-right"></i>
+    </div>
+    <div class="precedent">
+      <i class="fas fa-chevron-circle-left"></i>
+    </div>
+
+    <div>
+      <p class="lead text-center text-white section-text">
+        Offrez un cadeau unique : des témoignages authentiques à travers une
+        vidéo. Emotion Garantie !
+        <a href="#" class="btn btn-lg btn-secondary">EN SAVOIR PLUS</a>
+      </p>
+      <!-- <p class="lead mb-5">
+        <a href="#" class="btn btn-lg btn-secondary">EN SAVOIR PLUS</a>
+      </p> -->
+    </div>
+  </section>
+
+
+
+</div>
+
+<div class="container">
+  <body style="width: 90%; margin: auto">
+
+    
+    <!-- <header class=""> -->
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Extraits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prestations">Prestations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Avis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#assistance">Nous soutenir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#formulary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Brand</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Profile</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Inbox</a>
+                                <a href="#" class="dropdown-item">Sent</a>
+                                <a href="#" class="dropdown-item">Drafts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DBook Inc</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+     
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-google-plus-square"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+      <div class="navbar-brand b-collapse">
         <a href="" class="logo" aria-label="visit homepage" aria-current="page">
           <img src="/photos/logo.png" alt="chat icon" class="logo" />
         </a>
-      </div>
-      <div class="navigation">
-        <nav class="nav justify-content-end bg-light">
-          <a href="" class="nav-link text-dark">ACCUEIL</a>
-          <a href="" class="nav-link text-dark">EXTRAITS</a>
-          <a href="#prestations" class="nav-link text-dark">PRESTATIONS</a>
+      </div> -->
 
-          <a href="" class="nav-link text-dark">AVIS</a>
-          <a href="#assistance" class="nav-link text-dark">NOUS SOUTENIR</a>
-          <a href="#formulary" class="nav-link text-dark">CONTACT</a>
-        </nav>
-      </div>
     </header>
-    
-    <section class="slider d-flex w-100 flex-column">     
-        <img src="/photos/551A3852.jpg" alt="img1" class="img_slider active">
-        <img src="/photos/551A3830.jpg" alt="img2" class="img_slider">
-        <img src="/photos/551A3839.jpg  " alt="img2" class="img_slider">
-        <div class="suivant">
-          <i class="fas fa-chevron-circle-right"></i>
-        </div>
-        <div class="precedent">
-          <i class="fas fa-chevron-circle-left"></i>
-        </div>             
 
+    <!-- <section class="slider d-flex w-100 flex-column">
+      <img src="/photos/551A3852.jpg" alt="img1" class="img_slider active" />
+      <img src="/photos/551A3830.jpg" alt="img2" class="img_slider" />
+      <img src="/photos/551A3839.jpg  " alt="img2" class="img_slider" />
+      <div class="suivant">
+        <i class="fas fa-chevron-circle-right"></i>
+      </div>
+      <div class="precedent">
+        <i class="fas fa-chevron-circle-left"></i>
+      </div>
 
       <div>
-        <p class="lead text-center text-white section-text">Offrez un cadeau unique : des témoignages authentiques à travers une vidéo. Emotion Garantie ! 
-          <a href="#" class="btn btn-lg btn-secondary">EN SAVOIR PLUS</a>        
-        </p>        
-        <!-- <p class="lead mb-5">
+        <p class="lead text-center text-white section-text">
+          Offrez un cadeau unique : des témoignages authentiques à travers une
+          vidéo. Emotion Garantie !
           <a href="#" class="btn btn-lg btn-secondary">EN SAVOIR PLUS</a>
-        </p> -->
+        </p>
+        
       </div>
-    </section>
+    </section> -->
 
     <!--grille responsive-->
     <section class="">
-        <div class=" apropos bg-light d-flex ">       
-            <div class="propos mb-2 memory d-flex"> 
-                <div class="photo">
-                    <div class="photobox">
-                      <img
-                        src="photos/20220227_111827.jpg"
-                        alt="creator"
-                        class="propos-img"
-                      />
-                    </div>
-                <div class="nom">
-                  <span>Emmanuel Lazare</span>
-                </div>  
-                <div class="director">Directeur E-Production</div>
-                <div class="reseaux">                         
-                    <i class="fa-brands fa-facebook-f"></i>                   
-                    <i class="fa-brands fa-twitter"></i>                       
-                    <i class="fa-brands fa-instagram"></i>                     
-                </div>                     
-                </div>
-  
-                <div class="text">
-                    <P>A PROPOS</P>
-                    <p class="title">Mon histoire deviendra la notre ...</p>
-                    <div >"Hello,<br>
-                          je me présente je m'appelle Emmanuel Lazare mais tout le monde m'appelle Manu.
-                        <br>Auparavant j'étais manager de rayon pendant 20 ans dans une enseigne de grande 
-                        distribution.
-                        Durant ce long parcours de manager il m'arrivait souvent de faire
-                        des petites vidéos en auto-didacte pour des pots de départ, pour des anniversaires ou des mariages.
-          
-                        <br>
-                        Le début ?
-                        <br>
-                        J'ai commencé par faire une petite vidéo surprise pour les 50 ans de mère, elle retraçait
-                        son parcours à travers  des témoignages de sa famille et de ses amis. La vidéo 
-                        a beaucoup plu, on est passé des larmes au rires et des rires au larmes, elle était émue !.
-                        Puis de fil en aiguille, j'en ai fait une pour une autre famille, puis d'autres 
-                        anniversaires, puis au sein de mon travail pour des pots de départs...            
-                        <br>  J'ai donc tout naturellement crée E-production en 2013, une petite agence familiale de production vidéo au coeur de la Dombes, près de Trévoux (01600).            
-                          Je me suis spécialisé dans des films qui se veulent poignants et qui vont crée une sorte d'ascenceur émotionnels que je ne peux vous
-                          retranscrire mais vous invite à me contacter pourqu'un jour vous puissiez vivre cette sensation unique.
-                        <br>  J'aime réunir les familles, les amis, des collègues et partager avec eux.
-                    
-              
-                    </div>      
-                  </div>
-              
-            </div>            
-            <div class=" photo-family ">
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history ">
-              </div>
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history">
-              </div>
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history">
-              </div>
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history">
-              </div>
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history">
-              </div>
-              <div class="">
-                <img src="/photos/551A3852.jpg" alt="" class="history">
-              </div>
-      
+      <div class="apropos bg-light d-flex">
+        <div class="propos mb-2 memory d-flex">
+          <div class="photo">
+            <div class="photobox">
+              <img
+                src="photos/20220227_111827.jpg"
+                alt="creator"
+                class="propos-img"
+              />
             </div>
-    </section>
-      
+            <div class="nom">
+              <span>Emmanuel Lazare</span>
+            </div>
+            <div class="director">Directeur E-Production</div>
+            <div class="reseaux">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
 
+          <div class="text">
+            <p>A PROPOS</p>
+            <p class="title">Mon histoire deviendra la notre ...</p>
+            <div>
+              "Hello,<br />
+              je me présente je m'appelle Emmanuel Lazare mais tout le monde
+              m'appelle Manu.
+              <br />Auparavant j'étais manager de rayon pendant 20 ans dans une
+              enseigne de grande distribution. Durant ce long parcours de
+              manager il m'arrivait souvent de faire des petites vidéos en
+              auto-didacte pour des pots de départ, pour des anniversaires ou
+              des mariages.
 
-      <div class="row">
-        <div id="prestations" class="col-md-4 col-sm-6">
-          <div class="card mb-4 shadow-sm">
-            <img src="/photos/551A3852.jpg" alt="" class="w-100 photo-price" />
-            <div class="card-body">
-              <p class="card-text">Formule <span class="card-text-title">Sensation</span> </p>
-              <p class="price">1790 <span>€</span>TTC</p>
-              <p class="texte m-1">.Interviews <span class="texte-span">(entre 12-20 personnes maximum)</span> </p>
-              <p class="texte m-1">
-                .Intégration photos <span class="texte-span">(papiers ou numériques)</span>
-              </p>
-
-              <p class="texte m-1">
-                .location materiel de projection<span class="texte-span" >(ecran,
-                  vidéoprojeteur,sonorisation)</span> 
-              </p>
-              <p class="texte m-1">
-                .3 déplacements maxi <span class="texte-span">(dans un rayon de 20 km de Trévoux,
-                  01600)</span>
-              </p>
-              <p class="texte m-1">
-                .location materiel de projection <span class="texte-span">(ecran,
-                  vidéoprojeteur,sonorisation) </span>
-              </p>
-              <p class="texte m-1">.Durée de film : entre 12 et 20 minutes</p>
-              <p class="texte m-1">.film sur clé usb</p>
-
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  Demander un devis
-                </button>
-               
-              </div>
+              <br />
+              Le début ?
+              <br />
+              J'ai commencé par faire une petite vidéo surprise pour les 50 ans
+              de mère, elle retraçait son parcours à travers des témoignages de
+              sa famille et de ses amis. La vidéo a beaucoup plu, on est passé
+              des larmes au rires et des rires au larmes, elle était émue !.
+              Puis de fil en aiguille, j'en ai fait une pour une autre famille,
+              puis d'autres anniversaires, puis au sein de mon travail pour des
+              pots de départs...
+              <br />
+              J'ai donc tout naturellement crée E-production en 2013, une petite
+              agence familiale de production vidéo au coeur de la Dombes, près
+              de Trévoux (01600). Je me suis spécialisé dans des films qui se
+              veulent poignants et qui vont crée une sorte d'ascenceur
+              émotionnels que je ne peux vous retranscrire mais vous invite à me
+              contacter pourqu'un jour vous puissiez vivre cette sensation
+              unique. <br />
+              J'aime réunir les familles, les amis, des collègues et partager
+              avec eux.
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card mb-4 shadow-sm">
-            <img src="/photos/551A3852.jpg" alt="" class="w-100 photo-price" />
-            <div class="card-body">
-              <p class="card-text">Formule <span class="card-text-title">Emotion</span> </p>
-              <p class="price">2490 <span>€</span>TTC</p>
-
-             
-
-                <p class="texte m-1">.Interviews <span class="texte-span">(entre 12-20 personnes maximum)</span> </p>
-                <p class="texte m-1">
-                  .Intégration photos <span class="texte-span">(papiers ou numériques)</span>
-                </p>
-  
-                <p class="texte m-1">
-                  .location materiel de projection<span class="texte-span" >(ecran,
-                    vidéoprojeteur,sonorisation)</span> 
-                </p>
-                <p class="texte m-1">
-                  .3 déplacements maxi <span class="texte-span">(dans un rayon de 20 km de Trévoux,
-                    01600)</span>
-                </p>
-                <p class="texte m-1">
-                  .location materiel de projection <span class="texte-span">(ecran,
-                    vidéoprojeteur,sonorisation) </span>
-                </p>
-                <p class="texte m-1">.Durée de film : entre 12 et 20 minutes</p>
-                <p class="texte m-1">.film sur clé usb</p>             
-          
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  Demander un devis
-                </button>
-               
-              </div>
-            </div>
+        <div class="photo-family">
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
           </div>
-         
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
+          </div>
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
+          </div>
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
+          </div>
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
+          </div>
+          <div class="">
+            <img src="/photos/551A3852.jpg" alt="" class="history" />
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 col-sm-6">
+    </section>
+    <div class="photo">
+      <div class="photobox">
+        <img
+          src="photos/severinecollet.jpeg"
+          alt="creator"
+          class="propos-img"
+        />
+      </div>
+      <div class="nom">
+        <span>Severine Collet</span>
+      </div>
+      <div class="director">Assistante Commerciale</div>
+      <div class="reseaux">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+
+
+
+    <section>
+      <div class="exemple">Exemples de réalisation</div>
+
+      <div class="realisation d-flex">
+        <div class="realisation-text">
+          <span class="realisation-text-gras">
+            Vivez un moment inoubliable.
+          </span>
+          <p>
+            Vous allez vivre une expérience unique, des témoignages de vos
+            proches qui vont vous faire vibrer. Un ascenceur émotionnel garantie
+            !
+          </p>
+        </div>
+        <div class="realisation-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wqdvbMjIRso?start=4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="assistance ">NOMBRES DE PRESTATIONS</div>
+
+<!-- 
+      <div class="counter">
+        <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <div class="num">1600</div>
+            Étudiants formés
+        </div> -->
+
+
+
+      <div class="container">
+    
+        <div class="row">
+    
+      <div class="four col-md-3">
+        <div class="counter-box colored">
+          <i class="fa fa-thumbs-o-up"></i>
+          <span class="counter">2147</span>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa fa-group"></i>
+          <span class="counter">3275</span>
+          <p>Registered Members</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-shopping-cart"></i>
+          <span class="counter">289</span>
+          <p>Available Products</p>
+        </div>
+      </div>
+      <div class="four col-md-3">
+        <div class="counter-box">
+          <i class="fa  fa-user"></i>
+          <span class="counter">1563</span>
+          <p>Saved Trees</p>
+        </div>
+      </div>
+      </div>	
+    </div>
+
+
+
+    </section>
+
+
+
+
+    <div class="row">
+      <div id="prestations" class="col-md-4 col-sm-6">
         <div class="card mb-4 shadow-sm">
           <img src="/photos/551A3852.jpg" alt="" class="w-100 photo-price" />
           <div class="card-body">
-            <p class="card-text">Formule <span class="card-text-title">Prestige</span> </p>
-            <p class="price">3490 <span>€</span>TTC</p>
-            <p class="texte m-1">.Interviews <span class="texte-span">(entre 12-20 personnes maximum)</span> </p>
+            <p class="card-text">
+              Formule <span class="card-text-title">Sensation</span>
+            </p>
+            <p class="price">1790 <span>€</span>TTC</p>
             <p class="texte m-1">
-              .Intégration photos <span class="texte-span">(papiers ou numériques)</span>
+              .Interviews
+              <span class="texte-span">(entre 12-20 personnes maximum)</span>
+            </p>
+            <p class="texte m-1">
+              .Intégration photos
+              <span class="texte-span">(papiers ou numériques)</span>
             </p>
 
             <p class="texte m-1">
-              .location materiel de projection<span class="texte-span" >(ecran,
-                vidéoprojeteur,sonorisation)</span> 
+              .location materiel de projection<span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)</span
+              >
             </p>
             <p class="texte m-1">
-              .3 déplacements maxi <span class="texte-span">(dans un rayon de 20 km de Trévoux,
-                01600)</span>
+              .3 déplacements maxi
+              <span class="texte-span"
+                >(dans un rayon de 20 km de Trévoux, 01600)</span
+              >
             </p>
             <p class="texte m-1">
-              .location materiel de projection <span class="texte-span">(ecran,
-                vidéoprojeteur,sonorisation) </span>
+              .location materiel de projection
+              <span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)
+              </span>
             </p>
             <p class="texte m-1">.Durée de film : entre 12 et 20 minutes</p>
             <p class="texte m-1">.film sur clé usb</p>
@@ -242,136 +439,250 @@
               <button type="button" class="btn btn-sm btn-outline-secondary">
                 Demander un devis
               </button>
-             
             </div>
           </div>
-        </div>        
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card mb-4 shadow-sm">
+          <img src="/photos/551A3852.jpg" alt="" class="w-100 photo-price" />
+          <div class="card-body">
+            <p class="card-text">
+              Formule <span class="card-text-title">Emotion</span>
+            </p>
+            <p class="price">2490 <span>€</span>TTC</p>
+
+            <p class="texte m-1">
+              .Interviews
+              <span class="texte-span">(entre 12-20 personnes maximum)</span>
+            </p>
+            <p class="texte m-1">
+              .Intégration photos
+              <span class="texte-span">(papiers ou numériques)</span>
+            </p>
+
+            <p class="texte m-1">
+              .location materiel de projection<span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)</span
+              >
+            </p>
+            <p class="texte m-1">
+              .3 déplacements maxi
+              <span class="texte-span"
+                >(dans un rayon de 20 km de Trévoux, 01600)</span
+              >
+            </p>
+            <p class="texte m-1">
+              .location materiel de projection
+              <span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)
+              </span>
+            </p>
+            <p class="texte m-1">.Durée de film : entre 12 et 20 minutes</p>
+            <p class="texte m-1">.film sur clé usb</p>
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Demander un devis
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card mb-4 shadow-sm">
+          <img src="/photos/551A3852.jpg" alt="" class="w-100 photo-price" />
+          <div class="card-body">
+            <p class="card-text">
+              Formule <span class="card-text-title">Prestige</span>
+            </p>
+            <p class="price">3490 <span>€</span>TTC</p>
+            <p class="texte m-1">
+              .Interviews
+              <span class="texte-span">(entre 12-20 personnes maximum)</span>
+            </p>
+            <p class="texte m-1">
+              .Intégration photos
+              <span class="texte-span">(papiers ou numériques)</span>
+            </p>
+
+            <p class="texte m-1">
+              .location materiel de projection<span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)</span
+              >
+            </p>
+            <p class="texte m-1">
+              .3 déplacements maxi
+              <span class="texte-span"
+                >(dans un rayon de 20 km de Trévoux, 01600)</span
+              >
+            </p>
+            <p class="texte m-1">
+              .location materiel de projection
+              <span class="texte-span"
+                >(ecran, vidéoprojeteur,sonorisation)
+              </span>
+            </p>
+            <p class="texte m-1">.Durée de film : entre 12 et 20 minutes</p>
+            <p class="texte m-1">.film sur clé usb</p>
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">
+                Demander un devis
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container-fluid formu w-100 " id="formulary"> 
-      <h2>      
-        CONTACTEZ-NOUS
-      </h2>    
-      <P class="container-contact ">
-       Vous voulez en savoir plus sur notre activité ? Envoyez-nous un email
-       ou appelez-nous.
-       Afin de mieux se connaître il est important de se rencontrez ou même
-       discuter de vive voix, afin que nous puissions ressentir au mieux votre demande.
-       Une fois cette première approche faite nous conviendrons d'un 1er Rendez-vous soit dans nos locaux ou soit chez vous, à votre convenance.
-       A partir de ce moment là naitra votre projet ...
-
-
-      </P>
-<div class="quality">
-
-  test qualité
-</div>
-
-
+    <div class="container-fluid formu w-100" id="formulary">
+      <h2>CONTACTEZ-NOUS</h2>
+      <p class="container-contact">
+        Vous voulez en savoir plus sur notre activité ? Envoyez-nous un email ou
+        appelez-nous. Afin de mieux se connaître il est important de se
+        rencontrez ou même discuter de vive voix, afin que nous puissions
+        ressentir au mieux votre demande. Une fois cette première approche faite
+        nous conviendrons d'un 1er Rendez-vous soit dans nos locaux ou soit chez
+        vous, à votre convenance. A partir de ce moment là naitra votre projet
+        ...
+      </p>
+      <div class="quality">test qualité</div>
 
       <div class="container d-flex">
         <div class="container-coord">
-           <div class="coord">    
-                <h3><i class="fa-solid fa-mobile-screen-button"></i>
-                Téléphone
-                </h3>
-                <p>06-77-78-54-15</p>
-            </div>
-            <div class="coord">  
-              <h3><i class="fa-solid fa-house"></i>
-                Adresse
-              </h3>
-              <p>135 chemin du loure
-              </p>
-              <p>01600 Saint Didier de formans
-              </p>
-            </div>
-              <div class="coord">
-                <h3>         
-                  <i class="fa-sharp fa-solid fa-envelope"></i>
-                  Mail
-                </h3>            
-                <p>
-                e-production@yahoo.com
-                </p>
-              </div>
-              <div class="coord">
-                <h3>
-                  <i class="fa-regular fa-clock"></i>
-                  
-                  Horaires d'ouverture</h3>
-                <p>lun-Ven ...10h-12h / 14h-17h</p>
-              </div>
+          <div class="coord">
+            <h3>
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              Téléphone
+            </h3>
+            <p>06-77-78-54-15</p>
+          </div>
+          <div class="coord">
+            <h3>
+              <i class="fa-solid fa-house"></i>
+              Adresse
+            </h3>
+            <p>135 chemin du loure</p>
+            <p>01600 Saint Didier de formans</p>
+          </div>
+          <div class="coord">
+            <h3>
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              Mail
+            </h3>
+            <p>e-production@yahoo.com</p>
+          </div>
+          <div class="coord">
+            <h3>
+              <i class="fa-regular fa-clock"></i>
 
-            <p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.186170128318!2d4.796355849846697!3d45.94756325747793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f490a2b051c901%3A0x92a3a542872c1a4d!2s135%20Chem.%20du%20Loure%2C%2001600%20Saint-Didier-de-Formans!5e0!3m2!1sfr!2sfr!4v1663791910230!5m2!1sfr!2sfr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="maps"></iframe>        
-            </p>
+              Horaires d'ouverture
+            </h3>
+            <p>lun-Ven ...10h-12h / 14h-17h</p>
+          </div>
+
+          <p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2774.186170128318!2d4.796355849846697!3d45.94756325747793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f490a2b051c901%3A0x92a3a542872c1a4d!2s135%20Chem.%20du%20Loure%2C%2001600%20Saint-Didier-de-Formans!5e0!3m2!1sfr!2sfr!4v1663791910230!5m2!1sfr!2sfr"
+              width="300"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="maps"
+            ></iframe>
+          </p>
         </div>
-        
-      <div>
 
-        <form action="manulaz81@yahoo.com" class="row ">
-          <div class="d-flex">
-            <div class="d-flex flex-column form-name">
-              <label for="name">Nom</label>
-              <input type="text" id="name" class="form-control-lg" name="user_name">
-            </div>
-            <div class="d-flex flex-column">
-              <label for="surnname">Prénom</label>
-              <input type="text" id="surname" class="form-control-lg" name="sur_name" >
-            </div>
-          </div>
-  
-          <div>
+        <div>
+          <form action="manulaz81@yahoo.com" class="row">
             <div class="d-flex">
-              <div class="d-flex flex-column form-name ">
-    
-                <label for="phone">Téléphone</label>
-                <input type="telephone" id="phone" class="form-control-lg" name="phone" >
+              <div class="d-flex flex-column form-name">
+                <label for="name">Nom</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control-lg"
+                  name="user_name"
+                />
               </div>
-              <div class="d-flex flex-column form-name " >
-                <label for="email">Email</label>
-                <input type="email" id="mail" class="form-control-lg" name="mail" >
+              <div class="d-flex flex-column">
+                <label for="surnname">Prénom</label>
+                <input
+                  type="text"
+                  id="surname"
+                  class="form-control-lg"
+                  name="sur_name"
+                />
               </div>
-
-
             </div>
-          </div>
-          <div class="d-flex flex-column form-name ">
-            <label for="message">Message</label>
-            <input type="message" id="message" class="form-control-lg" name="message">
-          </div>
-        <button class="button-submit "> Soumettre</button>
-    
-        </form>
+
+            <div>
+              <div class="d-flex">
+                <div class="d-flex flex-column form-name">
+                  <label for="phone">Téléphone</label>
+                  <input
+                    type="telephone"
+                    id="phone"
+                    class="form-control-lg"
+                    name="phone"
+                  />
+                </div>
+                <div class="d-flex flex-column form-name">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="mail"
+                    class="form-control-lg"
+                    name="mail"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column form-name">
+              <label for="message">Message</label>
+              <input
+                type="message"
+                id="message"
+                class="form-control-lg"
+                name="message"
+              />
+            </div>
+            <button class="button-submit">Soumettre</button>
+          </form>
+        </div>
       </div>
     </div>
+
+    <section>
+      <div id="assistance ">TEMOIGNAGES</div>
+    </section>
+  
+
+
+    
+
+    <section>
+      <div id="assistance ">NOUS SOUTENIR</div>
+     
     </div>
 
+
+    </section>
+
+    <section>
+      <div id="partner">NOS PARTENAIRES</div>
+    </section>
+
+
+    @import "./pages/partenaire"
+
     
-        <section>
-          <div id="assistance ">TEMOIGNAGES</div>
-        </section>
-        <section>
-          <div id="assistance ">NOMBRES DE PRESTATIONS</div>
-        </section>
-
-        
-
-        <section>
-          <div id="assistance ">NOUS SOUTENIR</div>
-        </section>
-
-        <section>
-          <div id="partner">NOS PARTENAIRES            
-          </div>
-        </section>
-    
-    
-
-
-
-
- <script src ="app.js"></script>
+    <script src="app.js">
+      
+    </script>
   </body>
+</div>
+
 </html>
